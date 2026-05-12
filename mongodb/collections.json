@@ -1,0 +1,99 @@
+{
+  "regions": [
+    {
+      "region_code": 1,
+      "region_name": "Addis Ababa"
+    },
+    {
+      "region_code": 2,
+      "region_name": "Oromia"
+    },
+    {
+      "region_code": 3,
+      "region_name": "Amhara"
+    }
+  ],
+  "parties": [
+    {
+      "party_id": 1,
+      "party_name": "Prosperity Party",
+      "abbreviation": "PP",
+      "registration_number": "REG001",
+      "symbol_url": "pp.png",
+      "description": "Ruling party"
+    },
+    {
+      "party_id": 2,
+      "party_name": "Unity Party",
+      "abbreviation": "UP",
+      "registration_number": "REG002",
+      "symbol_url": "up.png",
+      "description": "Opposition party"
+    }
+  ],
+  "polling_stations": [
+    {
+      "station_name": "Bole Station",
+      "station_code": "BOL001",
+      "address": "Bole Road",
+      "latitude": 8.9806,
+      "longitude": 38.7578,
+      "region_code": 1
+    },
+    {
+      "station_name": "Piassa Station",
+      "station_code": "PIA001",
+      "address": "Piassa Area",
+      "latitude": 9.0333,
+      "longitude": 38.75,
+      "region_code": 1
+    },
+    {
+      "station_name": "Adama Station",
+      "station_code": "ADA001",
+      "address": "Adama City Center",
+      "latitude": 8.54,
+      "longitude": 39.27,
+      "region_code": 2
+    }
+  ],
+  "voters": [
+    {
+      "voter_id": 1,
+      "full_name": "Abel Tesfaye",
+      "date_of_birth": "2000-01-01",
+      "gender": "Male",
+      "address": "Bole",
+      "national_id": "NID001",
+      "phone_number": "0911111111",
+      "email": "abel@gmail.com",
+      "status": "active",
+      "registered_at": "2025-01-10",
+      "region_code": 1
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": 1,
+      "candidate_name": "Candidate A",
+      "party_id": 1,
+      "status": "active"
+    },
+    {
+      "candidate_id": 2,
+      "candidate_name": "Candidate B",
+      "party_id": 2,
+      "status": "active"
+    }
+  ],
+  "votes": [
+    {
+      "vote_id": 1,
+      "voter_id": 1,
+      "candidate_id": 1,
+      "polling_station_id": 1,
+      "vote_date": "2025-05-15",
+      "is_valid": true
+    }
+  ]
+}
