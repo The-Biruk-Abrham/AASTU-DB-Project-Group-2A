@@ -5,5 +5,5 @@
 | Alazar Walle|Ets 0127/17|MongoDB Implementation Lead|
 | Biruk Abrham|Ets 0324/17| Documentation & prsesentation Lead|
 | Dawit Aregawi|Ets 0418/17|Database Designer|
-|Aymen Nigussie|Ets 0127/17|Business Analyst|
+|Aymen Nigussie|Ets 0211/17|Business Analyst|
 |Edlawit Safework|Ets 0127/17|Project coordinator|
